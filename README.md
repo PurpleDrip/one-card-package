@@ -119,22 +119,3 @@ const isPanVerified = card.isPanVerified();
 ## Zero-Knowledge Proof (ZKP)
 
 The generated hashified code can be shared with third parties to prove that a user’s documents have been verified and to validate their age. The unique code ensures privacy by revealing only the necessary information without exposing sensitive document details.
-
-## License
-
-MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Notes
-
-- Ensure that you set the correct admin password in the `.env` file to allow document verification.
-- The encryption key and IV are generated randomly at runtime. For persistent sessions, consider securely storing the encryption key and IV.
-- Document verification is restricted to admins, who authenticate using the `signin` method with the correct password.
-
-```
-
----
-
-This `README.md` provides instructions for users who will install the package via NPM. It covers the basic setup, usage, and features, with a clear explanation of how to use the package for document verification and zero-knowledge proof validation. This should help your users understand how to use your package effectively.
-```
