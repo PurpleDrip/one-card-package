@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
