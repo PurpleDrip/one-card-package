@@ -1,0 +1,30 @@
+{
+  "name": "one-card",
+  "version": "1.0.0",
+  "description": "This package is used for ZKP",
+  "type": "module",
+  "main": "src/index.ts",
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifiers": true
+  },
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "test": "jest --config jest.config.cjs"
+  },
+  "author": "Purple_Drip",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
